@@ -1,0 +1,162 @@
+Code:
+//index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Anchan Golds</title>
+ <style>
+ @import 
+url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&displa
+y=swap');
+ 
+ body {
+ font-family: 'Roboto', sans-serif;
+ background-color: #fff5e1;
+ color: #333;
+ margin: 0;
+ padding: 0;
+ }
+ header {
+ background: black;
+ padding: 20px;
+ font-size: 35px;
+ color: #333;
+ font-weight: bold;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ }
+ .logo-text {
+ display: flex;
+ align-items: center;
+ gap: 15px;
+background-color:black;
+padding:10px 20px;
+border-radius:10px;
+ }
+.logo-text span{
+color:white;
+}
+ .logo-text img {
+ height: 60px;
+ }
+ nav {
+ display: flex;
+ justify-content: center;
+ background: #ffaa00;
+ padding: 15px;
+ }
+ nav a {
+ color: white;
+ text-decoration: none;
+ margin: 0 15px;
+ font-size: 18px;
+ font-weight: bold;
+ }
+ .container {
+ padding: 40px 20px;
+ text-align: center;
+ }
+ .product-grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+ gap: 20px;
+ padding: 20px;
+ }
+ .product-card {
+ background: white;
+ padding: 20px;
+ border-radius: 10px;
+ box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+ text-align: left;
+ transition: transform 0.3s ease-in-out;
+ }
+ .product-card:hover {
+ transform: translateY(-5px);
+ }
+ .product-card img {
+ width: 100%;
+ border-radius: 10px;
+ height: 350px;
+ object-fit: cover;
+ }
+ .product-card h3, .product-card p {
+ margin-left: 10px;
+ }
+ .buy-btn {
+ display: block;
+ width: max-content;
+ padding: 10px 20px;
+ background: #ffaa00;
+ color: white;
+ text-decoration: none;
+ border-radius: 5px;
+ margin: 10px auto;
+ font-weight: bold;
+ }
+ .about, .contact {
+ text-align: center;
+ padding: 40px;
+ background: #ffcc00;
+ color: white;
+ }
+ .about h2, .contact h2 {
+ font-size: 28px;
+ margin-bottom: 15px;
+ }
+ </style>
+</head>
+<body>
+ <header>
+ <span>Anchan Golds</span>
+
+ </header>
+ <nav>
+ <a href="#about">About</a>
+ <a href="#collection">Collection</a>
+ <a href="#contact">Contact</a>
+ </nav>
+ <div class="about" id="about">
+ <h2>About Us</h2>
+ <p>"Welcome to Anchan Golds"</p>
+ </div>
+ <div class="container" id="collection">
+ <h2>☀ Our Gold Collections ☀</h2>
+ <div class="product-grid">
+ <div class="product-card">
+ <img src="antq.jpg" alt="necklace">
+ <h3>Necklace</h3>
+ <p>75% off on this necklace.</p>
+ <p> Price: ₹75000</p>
+ <a href="buy.html" class="buy-btn">Buy Now</a>
+ </div>
+ <div class="product-card">
+ <img src="bangle.jpg" alt="bangle">
+ <h3>Bangle</h3>
+ <p>65% off on this bangle.</p>
+ <p> Price: ₹45000</p>
+ <a href="buy.html" class="buy-btn">Buy Now</a>
+ </div>
+ <div class="product-card">
+ <img src="ring.jpg" alt="ring">
+ <h3>Ring</h3>
+ <p>25% off on this ring.</p>
+ <p> Price: ₹25000</p>
+ <a href="buy.html" class="buy-btn">Buy Now</a>
+ </div>
+ </div>
+ </div>
+ <div class="contact" id="contact">
+ <h2>Contact Us</h2>
+ <p>Email: contact@caffeinecorner.com</p>
+ <p>Phone: +91 98545 56788</p>
+ </div>
+</body>
+</html>
+
+
+
+
+
